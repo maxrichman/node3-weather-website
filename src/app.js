@@ -6,6 +6,7 @@ var forecast = require('./utils/forecast.js')
 
 var app = express()
 
+
 //define paths for Express config
 var publicDirectoryPath = path.join(__dirname, '../public')
 var viewsPath = path.join(__dirname, '../templates/views')
